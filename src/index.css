@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  box-sizing: border-box;
+  --selectedbg: #F8F7FC;
+  --lightbg: #F8F7FC;
+  --darkbg: #172A3A;
+  --purple: #AB56ED;
+  --darkpurple:#340068;
+  --blue: #595CE4;
+  
+  --mainimage:url(./images/lounge-business-statistics.png);
+  --aboutimage:url(./images/about.JPG);
+  --selectedhamimage:url(./images/ham.png);
+  --selectedhomeimage:url(./images/Home.png);
+  --selecteddashimage:url(./images/dash.png);
+  --darkhamimage:url(./images/darkham.png);
+  --darkhomeimage:url(./images/darkhome.png);
+  --darkdashimage:url(./images/darkdash.png);
+  --lighthamimage:url(./images/ham.png);
+  --lighthomeimage:url(./images/Home.png);
+  --lightdashimage:url(./images/dash.png);
+  --profileimage:url(./images/prof.png);
+
+
+  --selectedfont:var(--darkbg); 
+  --darkfont:var(--lightbg);
+  --lightfont:var(--darkbg);
+
+  --selectedfooter:#E0E2EB;
+  --darkfooter:var(--darkbg);
+  --lightfooter:#E0E2EB;
+
+
+  --selectedheader:#EBE7FF;
+  --lightheader:#EBE7FF;
+  --darkheader:#12425F;
+
+  --selectedheader2:#6365D8;
+  --lightheader2:#6365D8;
+  --darkheader2:#216074;
+
+  --selectedbod:#AD70FA;
+  --lightbod:#AD70FA;
+  --darkbod:#7640BA;
+
+}
